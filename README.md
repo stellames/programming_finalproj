@@ -1,1 +1,38 @@
-Stella Meserve & Maryana Shnitser Programming Final Project 
+Philadelphia Food Access Analysis
+This project analyzes food accessibility in Philadelphia, focusing on food deserts, fast food clustering, and their correlation. We used census data, OpenStreetMap (OSM) data, and city-provided spatial layers to investigate patterns of food vulnerability.
+
+Research Questions
+Where are food deserts located in Philadelphia?
+
+Where are fast food restaurants clustered?
+
+Is there a correlation between fast food density and food deserts?
+
+Methods
+Data Sources: Census API, OSM, City of Philadelphia GIS data.
+
+Cleaning: KNN imputation for missing census values, filtering non-chain food stores.
+
+Analysis:
+
+Multi-Criteria Evaluation (MCE) with weighted variables: median income, age, poverty, vehicle access, and store proximity.
+
+Kernel Density Estimation (KDE) and DBSCAN to identify fast food clusters.
+
+Bivariate OLS regression to quantify the relationship between food access and fast food density.
+
+Key Finding
+Higher fast food density is positively associated with greater food access vulnerability.
+
+Usage
+Clone the repo:
+git clone https://github.com/yourusername/philadelphia-food-access.git
+
+Install dependencies:
+pip install -r requirements.txt
+
+Run:
+python analysis.py
+
+Authors
+Stella Meserve & Maryana Shnitser
