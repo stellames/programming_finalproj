@@ -21,10 +21,5 @@ This project analyzes food accessibility in Philadelphia, focusing on food deser
 
 Higher fast food density is positively associated with greater food access vulnerability.
 
-## Usage
-
-1. Clone the repo:  
-   ```bash
-   git clone https://github.com/yourusername/philadelphia-food-access.git
 ## Authors
 Stella Meserve & Maryana Shnitser
